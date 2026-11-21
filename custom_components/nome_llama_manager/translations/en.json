@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nome-LLama-Manager",
+        "description": "Connect to a llama-manager instance. The API key is the one configured on llama-manager's /edit page (sent as the X-API-Key header).",
+        "data": {
+          "base_url": "llama-manager URL",
+          "api_key": "API key",
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Nome-LLama-Manager options",
+        "data": {
+          "base_url": "llama-manager URL",
+          "api_key": "API key",
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

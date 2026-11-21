@@ -1,0 +1,9 @@
+{
+  "domain": "nome_llama_manager",
+  "name": "Nome-LLama-Manager",
+  "version": "1.0.0",
+  "config_flow": true,
+  "iot_class": "polling",
+  "integration_type": "hub",
+  "codeowners": ["@nome"]
+}
